@@ -113,10 +113,10 @@ export default function Checkout() {
             {activeStep === steps.length ? (
               <React.Fragment>
                 <Typography variant="h5" gutterBottom>
-                  Gracias por envíar su solicitud.
+                 Gracias por tu tiempo!
                 </Typography>
                 <Typography variant="subtitle1">
-                  El equipo de BBVA se comunicará con usted a través de su correo electrónico.
+                 En breve nos comunicaremos contigo.
                 </Typography>
               </React.Fragment>
             ) : (

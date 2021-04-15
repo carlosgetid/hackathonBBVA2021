@@ -17,6 +17,7 @@ export default function AddressForm() {
             required
             id="firstName"
             name="firstName"
+            value="Randhal"
             label="Nombres"
             fullWidth
             autoComplete="given-name"
@@ -28,6 +29,7 @@ export default function AddressForm() {
             id="lastName"
             name="lastName"
             label="Apellidos"
+            value="Quispe"
             fullWidth
             autoComplete="family-name"
           />
@@ -38,6 +40,7 @@ export default function AddressForm() {
             id="address1"
             name="address1"
             label="Direccion"
+            value="Comas"
             fullWidth
             autoComplete="shipping address-line1"
           />
@@ -49,6 +52,7 @@ export default function AddressForm() {
             id="city"
             name="city"
             label="Ciudad"
+            value="Lima"
             fullWidth
             autoComplete="shipping address-level2"
           />
@@ -62,6 +66,7 @@ export default function AddressForm() {
             id="zip"
             name="zip"
             label="Codigo postal"
+            value="13011"
             fullWidth
             autoComplete="shipping postal-code"
           />
